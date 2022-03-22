@@ -1,0 +1,75 @@
+body {
+    background: rgb(62, 143, 62) repeat center;    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: center no-repeat;
+}
+
+div {
+    min-width: 100%;
+}
+
+h1 {
+    color: black;
+    font-family: Fjalla One;
+    text-align: center;
+    font-size: 4em;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: Noto-Sans;
+    font-size: 1em;
+}
+
+h2 {
+    color: black;
+    font-family: Fjalla One;
+    text-align: center;
+    font-size: 4em;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-family: Noto-Sans;
+    font-size: 1em;
+}
+
+header {
+  background-image: url("../images/your-choice.jpg");
+}
+
+nav li {
+    // background: lightgreen;
+    flex-direction: row;
+    text-decoration: none;
+    color: darkgreen;
+    display: flex;
+
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    /* margin: auto; */
+    height: auto;
+    text-decoration: none;
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
